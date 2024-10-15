@@ -17,7 +17,6 @@ import MapOptions from '@/map/MapOptions'
 import MobileSidebar from '@/sidebar/MobileSidebar'
 import { useMediaQuery } from 'react-responsive'
 import RoutingResults from '@/sidebar/RoutingResults'
-import PoweredBy from '@/sidebar/PoweredBy'
 import { QueryStoreState, RequestState } from '@/stores/QueryStore'
 import { RouteStoreState } from '@/stores/RouteStore'
 import { MapOptionsStoreState } from '@/stores/MapOptionsStore'
@@ -201,9 +200,6 @@ function LargeScreenLayout({ query, route, map, error, mapOptions, encodedValues
                             currentRequest={query.currentRequest}
                             profile={query.routingProfile.name}
                         />
-                        <div>
-                            <PoweredBy />
-                        </div>
                     </div>
                 </div>
             ) : (
@@ -262,9 +258,6 @@ function SmallScreenLayout({ query, route, map, error, mapOptions, encodedValues
                 />
             </div>
 
-            <div className={styles.smallScreenPoweredBy}>
-                <PoweredBy />
-            </div>
         </>
     )
 }
