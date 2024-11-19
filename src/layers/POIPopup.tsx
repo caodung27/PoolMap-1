@@ -99,11 +99,6 @@ export default function POIStatePopup({ map, poiState, points }: POIStatePopupPr
                     <PlainButton>{tr('as_destination')}</PlainButton>
                 </div>
                 {selectedPOI && <POITable poi={selectedPOI} />}
-                <div className={styles.osmLink}>
-                    <a href={'https://www.openstreetmap.org/' + type + '/' + selectedPOI?.osm_id} target="_blank">
-                        OpenStreetMap.org
-                    </a>
-                </div>
             </div>
         </MapPopup>
     )
