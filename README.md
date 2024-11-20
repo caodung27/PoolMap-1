@@ -5,10 +5,7 @@ A route planner user interface for the [GraphHopper routing engine](https://gith
 [Try it out](https://pool-map-1.vercel.app/)!
 
 We have developed an intuite and simple user interface to find routes:
-
-[![Pool Maps route planner](![image](https://github.com/user-attachments/assets/f9f974ab-d894-4f0d-87a2-f6491b1adecf)
-)](https://pool-map-1.vercel.app/)
-
+![pool-map-1](https://github.com/user-attachments/assets/cf2e127c-b593-4fe6-9fa4-d374101949f9)
 
 ## Start development:
 
