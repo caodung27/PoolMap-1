@@ -10,10 +10,6 @@ declare module 'config' {
     const defaultTiles: string
     const keys: {
         graphhopper: string
-        omniscale: string
-        maptiler: string
-        thunderforest: string
-        kurviger: string
     }
     const request: {
         details: string[]
