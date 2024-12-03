@@ -49,7 +49,7 @@ const retina2x = isRetina ? '@2x' : ''
 const osmOrg: RasterStyle = {
     name: 'OpenStreetMap',
     type: 'raster',
-    url: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+    url: ['https://tmdt.fimo.edu.vn/hot/{z}/{x}/{y}.png'],
     attribution: osmAttribution,
     maxZoom: 19,
 }

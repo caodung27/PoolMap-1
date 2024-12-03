@@ -161,12 +161,6 @@ function RoutingResult({
                         )}
                     </div>
                     {isSelected && (
-                        <PlainButton className={styles.exportButton} onClick={() => downloadGPX(path, settings)}>
-                            <GPXDownload />
-                            <div>{tr('gpx_button')}</div>
-                        </PlainButton>
-                    )}
-                    {isSelected && (
                         <PlainButton
                             className={isExpanded ? styles.detailsButtonExpanded : styles.detailsButton}
                             onClick={() => setExpanded(!isExpanded)}
